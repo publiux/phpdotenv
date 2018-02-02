@@ -1,6 +1,8 @@
 {
     "name": "publiux/phpdotenv",
-    "replace": ["vlucas/phpdotenv"],
+    "replace": {
+        "vlucas/phpdotenv":"~2.2"
+    },
     "description": "Loads environment variables from `.env` to `getenv()`, `$_ENV` and `$_SERVER`, and Docker secrets automagically.",
     "keywords": ["env", "dotenv", "environment"],
     "license" : "BSD-3-Clause-Attribution",
